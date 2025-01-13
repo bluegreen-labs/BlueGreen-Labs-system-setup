@@ -123,9 +123,9 @@ sudo apt install r-base r-base-core r-recommended r-base-dev -y >/dev/null 2>&1
 sudo apt install r-cran-devtools r-cran-remotes -y >/dev/null 2>&1
 
 # rstudio
-wget https://download1.rstudio.org/electron/jammy/amd64/rstudio-2023.03.0-386-amd64.deb  >/dev/null 2>&1
-sudo dpkg -i rstudio-2022.07.1-554-amd64.deb >/dev/null 2>&1
-rm rstudio-2022.07.1-554-amd64.deb >/dev/null 2>&1
+wget https://download1.rstudio.org/electron/jammy/amd64/rstudio-2024.12.0-467-amd64.deb  >/dev/null 2>&1
+sudo dpkg -i rstudio-2024.12.0-467-amd64.deb >/dev/null 2>&1
+rm rstudio-2024.12.0-467-amd64.deb >/dev/null 2>&1
 
 sudo apt-get install gdebi-core -y >/dev/null 2>&1
 
